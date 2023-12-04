@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.prime-video {
+  width: 100vw;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  border-bottom: 0px;
+  background-position: center;
+  height: 35vh;
+}
+
+.app {
+  background-color: black;
+  height: 110vh;
+}

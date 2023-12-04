@@ -1,0 +1,63 @@
+/* Write your CSS here */
+.thumbNail {
+  padding-left: 0px;
+  margin-right: 0px;
+  gap: 0;
+  display: 'inline-block';
+}
+.thumbNail:hover {
+  cursor: pointer;
+}
+
+.close {
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  align-self: flex-end;
+  position: absolute;
+  right: 0;
+  transform: translate(-50%, -50%);
+  color: white;
+  border-radius: 25px;
+  width: 20px;
+  height: 20px;
+  background-color: black;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.movie-item {
+  background-color: white;
+  position: relative;
+  padding: 20px;
+  border-radius: 20px;
+}
+/* .movie {
+  position: relative;
+  opacity: 0.5;
+  background: black;
+} */
+.react-player {
+  border-radius: 20px;
+  background-color: black;
+}
+.overlay {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* background-color: black; */
+  opacity: 1;
+}
+.popup-content {
+  /* background-color: black; */
+  /* opacity: 0.7; */
+}
+.popup-content {
+  background-color: #ffffff;
+  width: 750px;
+  height: 460px;
+  border-radius: 16px;
+}

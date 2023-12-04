@@ -1,0 +1,45 @@
+/* Write your CSS here */
+
+.slick-prev:before {
+  background-color: black;
+  color: white;
+  z-index: 111;
+  padding-left: 0px;
+  margin-left: 0px;
+  /* position: absolute; */
+  border-radius: 50%;
+  /* left: 12px; */
+}
+
+.slick-next:before {
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+  z-index: 111;
+  padding-left: 0px;
+  margin-left: 0px;
+  /* position: absolute;
+  right: 15px; */
+}
+.poorna {
+  margin: 0px;
+  padding: 0px;
+}
+.thumbNail:hover {
+  transform: scale(1.09);
+  background-position: center;
+  border-radius: 15px;
+}
+h2 {
+  text-align: left;
+  width: 80vw;
+  margin: auto;
+  padding: 20px;
+  padding-left: 0px;
+}
+.prime-vedio {
+  background-color: black;
+  color: red;
+  height: auto;
+  z-index: 500;
+}
