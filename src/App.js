@@ -109,15 +109,6 @@ const moviesList = [
   },
 ]
 
-const App = () => (
-  <div className="app">
-    <img
-      src="https://assets.ccbp.in/frontend/react-js/prime-video-img.png"
-      alt="prime video"
-      className="prime-video"
-    />
-    <PrimeVideo moviesList={moviesList} />
-  </div>
-)
+const App = () => <PrimeVideo moviesList={moviesList} />
 
 export default App
